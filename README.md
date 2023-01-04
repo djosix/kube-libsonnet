@@ -27,3 +27,11 @@ If you don't want that full kube-api stack (will then use your "local"
 kubernetes configured environment), you can run:
 
     make -C tests local-tests kube-validate
+
+## Install
+
+Using [jsonnet-bundler](https://github.com/jsonnet-bundler/jsonnet-bundler)
+
+```
+jb install github.com/djosix/kube-libsonnet/jsonnet/kube@master
+```
